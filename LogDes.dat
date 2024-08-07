@@ -1,0 +1,6 @@
+SheetConnection logdes("LogDes_Project.xlsx");
+
+T from SheetRead(logdes,"cost_matrix");
+c from SheetRead(logdes,"capacity");
+d from SheetRead(logdes,"demand");
+dist from SheetRead(logdes,"distance_matrix");
